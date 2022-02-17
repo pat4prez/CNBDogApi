@@ -2,7 +2,6 @@ package com.example.cnb
 
 import android.app.Application
 import com.example.cnb.dagger.ApplicationComponent
-import com.example.cnb.dagger.ApplicationModule
 import com.example.cnb.dagger.ContextModule
 import com.example.cnb.dagger.DaggerApplicationComponent
 import timber.log.Timber

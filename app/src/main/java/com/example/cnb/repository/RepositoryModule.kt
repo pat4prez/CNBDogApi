@@ -10,7 +10,7 @@ class RepositoryModule {
 
     @Provides
     @ApplicationScope
-    fun provideTmdbRepository(dogBreedApiInterface: DogBreedApiInterface): DogBreedRepo {
+    fun provideDogBreedRepository(dogBreedApiInterface: DogBreedApiInterface): DogBreedRepo {
         return DogBreedRepo(dogBreedApiInterface)
     }
 }

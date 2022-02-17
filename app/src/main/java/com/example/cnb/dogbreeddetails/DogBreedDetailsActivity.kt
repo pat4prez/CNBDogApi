@@ -1,6 +1,5 @@
 package com.example.cnb.dogbreeddetails
 
-import android.app.Dialog
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity

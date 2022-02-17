@@ -1,4 +1,4 @@
-package com.example.cnb.repository
+package com.example.cnb.repository.data
 
 import com.squareup.moshi.JsonClass
 

@@ -38,7 +38,6 @@ class DogBreedActivity : AppCompatActivity() {
         override fun onFailure() {
             Toast.makeText(this@DogBreedActivity, "List load failed", Toast.LENGTH_LONG).show()
         }
-
     }
 
     private val viewHolderListener: DogBreedListAdapter.ViewHolderListener = object : DogBreedListAdapter.ViewHolderListener {
